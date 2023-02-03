@@ -1,0 +1,233 @@
+Array in Java quiz
+10 out of 10 correct
+1.
+Which will legally declare, construct, and initialize an array?
+
+
+int [] myList = {}
+
+
+int [] myList = (5, 8, 2)
+
+
+int myList [] [] = {4,9,7,0}
+
+
+int myList [] = {4, 3, 7}
+
+2.
+Analyze the following code and choose the correct answer.
+
+int[] arr= new int[5];
+
+arr = new int[6];
+
+
+The code has compile errors because the variable arr cannot be changed once it is assigned.
+
+
+The code has runtime errors because the variable arr cannot be changed once it is assigned.
+
+
+The code can compile and run fine. The second line assigns a new array to arr.
+
+
+The code has compile errors because we cannot assign a different size array to arr.
+
+3.
+What will be the output of the following Java code?
+
+class evaluate 
+
+    {
+
+         public static void main(String args[]) 
+
+             {
+
+       int arr[] = new int[] {0 , 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+         int n = 6;
+
+                    n = arr[arr[n] / 2];
+
+         System.out.println(arr[n] / 2);
+
+             } 
+
+    }
+
+
+3
+
+
+0
+
+
+6
+
+
+1
+
+Explanation:
+
+4.
+What is the type of variable ‘b’ and ‘d’ in the following program?
+
+int a[], b;
+
+int []c, d;
+
+
+‘b’ and ‘d’ are int
+
+
+‘b’ and ‘d’ are arrays of type int
+
+
+‘b’ is int variable; ‘d’ is int array
+
+
+‘d’ is int variable; ‘b’ is int array
+
+Explanation:
+
+5.
+What will be the output of the following snippet?
+
+Object[] names = new String[3];
+
+names[0] = new Integer(0);
+
+
+ArrayIndexOutOfBoundsException
+
+
+ArrayStoreException
+
+
+Compilation Error
+
+
+Code runs successfully
+
+Explanation:
+
+6.
+Can you make an array volatile?
+
+
+True
+
+
+False
+
+Explanation:
+
+7.
+An Array elements are always stored in ________ memory locations.
+
+
+Sequential
+
+
+Random
+
+
+Sequential and Random
+
+
+Binary search
+
+Explanation:
+
+8.
+What will be the output of the following program?
+
+class Demo 
+
+    {
+
+        public static void main(String args[])
+
+        {
+
+            int a1[] = new int[10];
+
+            int a2[] = {1, 2, 3, 4, 5};
+
+            System.out.println(a1.length + " " + a2.length);
+
+        } 
+
+    }
+
+
+10 5
+
+
+5 10
+
+
+0 10
+
+
+0 5
+
+Explanation:
+
+9.
+What will be the output of the following Java program?
+
+class Demo 
+
+    {
+
+        public static void main(String args[])
+
+        {
+
+             int arr[] = {1, 2, 3, 4, 5};
+
+            for ( int i = 0; i < arr.length - 2; ++i)
+
+                 System.out.println(arr[i] + " ");
+
+        } 
+
+     }
+
+
+1 2
+
+
+1 2 3
+
+
+1 2 3 4
+
+
+1 2 3 4 5
+
+Explanation:
+
+10.
+What will be the output of the following code?
+
+int arr[] = new int [5];
+
+System.out.print(arr);
+
+
+0
+
+
+value stored in arr[0].
+
+
+00000
+
+
+Garbage value
+
+Explanation:

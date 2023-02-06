@@ -1,0 +1,309 @@
+
+String str =" ";
+
+str.trim();
+
+System.out.println(str.equals("")+ " " + str.isEmpty());
+
+What is the result?
+
+
+ true false
+
+
+ true true
+
+
+false true
+
+
+false false
+
+2.
+String s = "SACHIN TENDULKAR";
+
+int len= s.trim().length(); 
+
+System.out.println(len);
+
+What is the result?
+
+
+ 10
+
+
+ 9
+
+
+ 8
+
+
+ compilation fails
+
+
+ None of the above
+
+3.
+String s= "Hello world"; s.trim();
+
+int i = s.indexOf(" "); 
+
+System.out.println(i);
+
+What is the result?
+
+
+Exception at runtime
+
+
+-1
+
+
+ 5
+
+
+ 0 
+
+4.
+String s1= "Java";
+
+String s2=new String("java"); 
+
+//line-1
+
+{
+
+System.out.println("equal");
+
+}else{
+
+System.out.println("not equal")
+
+}
+
+ 
+
+To print equal which code fragment should be inserted?
+
+
+String s1=s2;
+
+if(s1==s2)
+
+
+ if(s1.equalsIgnoreCase(s2))
+
+
+ String s3= s2; if(s3.equalsIgnoreCase(s2))
+
+
+ if(s1.toLowerCase() == s2.toLowerCase()) 
+
+5.
+System.out.print("" == "");
+
+System.out.print(" ");
+
+System.out.print("A"=="A"); 
+
+System.out.print("a==A");
+
+
+ == A=A a=A
+
+
+ compile time error
+
+
+ true true a==A
+
+
+false true true
+
+
+true true false
+
+
+None of the above
+
+6.
+What will be the result of compiling and executing Test class? 
+
+public class Test {
+
+public static void main(String[] args) {
+
+String str = "Java Rocks!";
+
+System.out.println(str.length() + " : " + str.charAt(10));
+
+}
+
+}
+
+
+11:!
+
+
+Exception is thrown at RunTime
+
+
+ 11:s
+
+
+ CompilationError 
+
+7.
+What will be the result of compiling and executing Test class? 
+
+public class Test {
+
+public static void main(String[] args) {
+
+String s1 = "OcA";
+
+String s2 = "oCa"; 
+
+System.out.println(s1.equals(s2));
+
+}
+
+}
+
+
+ true
+
+
+ false
+
+
+compilation error
+
+
+None of the above 
+
+8.
+What will be the result of compiling and executing Test class? 
+
+public class Test {
+
+public static void main(String[] args) { 
+
+String fName = "James";
+
+String lName = "Gosling"; 
+
+System.out.println(fName = lName);
+
+}
+
+}
+
+
+ CompilationError
+
+
+true
+
+
+ false
+
+
+None of the above
+
+9.
+What will be the result of compiling and executing Test class? 
+
+public class Test {
+
+public static void main(String[] args){
+
+String str = "Good"; //Line 3 
+
+change(str); //Line 4
+
+System.out.println(str); //Line 5
+
+}
+
+private static void change(String s) { 
+
+s.concat("_Morning"); //Line 9
+
+}
+
+}
+
+
+Good
+
+
+_Morning
+
+
+Good_Morning
+
+
+ None of the above
+
+10.
+What will be the result of compiling and executing Test class? 
+
+public class Test {
+
+public static void main(String[] args) {
+
+StringBuilder sb = new StringBuilder("Good"); //Line 3 change(sb); //Line 4
+
+System.out.println(sb); //Line 5
+
+}
+
+private static void change(StringBuilder s) { 
+
+s.append("_Morning"); //Line 9
+
+}
+
+}
+
+
+ Good
+
+
+_Morning
+
+
+ Good_Morning
+
+
+None of the above 
+
+11.
+What will be the result of compiling and executing Test class? 
+
+public class Test {
+
+public static void main(String[] args) { 
+
+String str1 = new String("Core"); 
+
+String str2 = new String("CoRe"); 
+
+System.out.println(str1 = str2);
+
+}
+
+}
+
+
+ true
+
+
+false
+
+
+ Core
+
+
+CoRe 

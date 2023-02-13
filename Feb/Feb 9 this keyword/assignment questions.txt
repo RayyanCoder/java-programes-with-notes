@@ -1,0 +1,83 @@
+1.
+What is Encapsulation in Java?
+
+
+The process of hiding data and methods within a class
+
+
+The process of exposing data and methods within a class
+
+
+The process of accessing data and methods from a different class
+
+
+The process of storing data and methods in a database
+
+2.
+ What is the main advantage of Encapsulation in Java?
+
+
+Increases the security of data and methods
+
+
+Increases the speed of accessing data and methods
+
+
+Increases the storage capacity of data and methods
+
+
+Increases the processing capacity of data and methods
+
+3.
+ What is the purpose of Getters and Setters in Java Encapsulation?
+
+
+To expose the data and methods to other classes
+
+
+To access and manipulate the data within a class
+
+
+To store the data and methods in a database
+
+
+To process the data and methods in a class
+
+4.
+ What is the access level of a private variable in Java Encapsulation?
+
+
+Public
+
+
+Protected
+
+
+Private
+
+
+Package-private
+
+5.
+ Can we access a private variable directly from another class in Java Encapsulation?
+
+
+Yes
+
+
+No
+
+6.
+What is the use of the final keyword in Java Encapsulation?
+
+
+To prevent inheritance
+
+
+To prevent method overriding
+
+
+To prevent data manipulation
+
+
+To prevent data and method access

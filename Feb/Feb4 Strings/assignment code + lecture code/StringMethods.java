@@ -1,6 +1,6 @@
 class StirngMethods{
     public static void main(String[] args){
-        String name = "rayyan shaikh";
+        String name = "rayyan shaikh  ";
 
         System.out.println(name.length());
         System.out.println(name.toLowerCase());

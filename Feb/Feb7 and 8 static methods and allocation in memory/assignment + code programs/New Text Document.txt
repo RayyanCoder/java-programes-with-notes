@@ -1,0 +1,119 @@
+1.
+Which of these cannot be declared static?
+
+
+class
+
+
+object
+
+
+variable
+
+
+method
+
+Explanation: static statements are run as soon as the class containing them is loaded, prior to any object declaration.
+
+2.
+Which of these keywords is used to prevent content of a variable from being modified?
+
+
+final
+
+
+last
+
+
+constant
+
+
+static
+
+Explanation: A variable can be declared final, doing so prevents its content from being modified. Final variables must be initialized when it is declared.
+
+3.
+ Which of the following statements are incorrect?
+
+
+static methods can call other static methods only
+
+
+static methods must only access static data
+
+
+static methods can not refer to this or super in any way
+
+
+when object of class is declared, each object contains its own copy of static variables
+
+Explanation: All objects of class share the same static variable, when objects of a class are declared, all the objects share the same copy of static members, no copy of static variables are made.
+
+4.
+Which of these methods must be made static?
+
+
+main()
+
+
+delete()
+
+
+run()
+
+
+finalize()
+
+Explanation: main() method must be declared static, main() method is called by Java runtime system before any object of any class exists.
+
+5.
+Which of these is the method which is executed first before execution of any other thing takes place in a program?
+
+
+main method
+
+
+finalize method
+
+
+static method
+
+
+private method
+
+Explanation: If a static method is present in the program then it will be executed first, then main will be executed.
+
+6.
+Can a static block be used to initialize non-static variables in Java?
+
+
+Yes
+
+
+ No
+
+7.
+What happens if a static method is declared as final in Java?
+
+
+It cannot be overridden by any subclass.
+
+
+ It cannot be accessed by any instance of a class.
+
+
+Both A and B
+
+
+ None of the above
+
+8.
+ Main method is static because to execute main method without creating object By JVM
+
+
+Yes
+
+
+No
+
+Explanation: In order to execute a method without creating an object we need to declare that method as static.

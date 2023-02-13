@@ -1,0 +1,141 @@
+1.
+Which of these classes is the superclass of String and StringBuffer class?
+
+
+java.util
+
+
+java.lang
+
+
+ArrayList
+
+
+None of the mentioned
+
+2.
+Which of these constructors is used to create an empty String object?
+
+
+String()
+
+
+String(void)
+
+
+String(0)
+
+
+None of the mentioned
+
+3.
+ Which of these is an incorrect statement?
+
+
+String objects are immutable, they cannot be changed
+
+
+String object can point to some other reference of String variable
+
+
+StringBuffer class is used to store string in a buffer for later use
+
+
+None of the mentioned
+
+Explanation:
+
+4.
+Which of these methods of class String is used to check whether a given object starts with a particular string literal?
+
+
+startsWith()
+
+
+endsWith()
+
+
+Starts()
+
+
+ends()
+
+Explanation:
+
+5.
+In the following code, which code fragment should be inserted at line 3 so that the output will be: “123abc 123abc”?
+
+StringBuilder sb1 = new StringBuilder("123");
+
+String s1 = "123";
+
+ // insert code here
+
+ System.out.println(sb1 + " " + s1);
+
+
+sb1.append(“abc”); s1.append(“abc”);
+
+
+sb1.append(“abc”); s1.concat(“abc”);
+
+
+sb1.concat(“abc”); s1.append(“abc”);
+
+
+sb1.append(“abc”); s1 = s1.concat(“abc”);
+
+Explanation:
+
+6.
+ Which of this method of class String is used to extract a substring from a String object?
+
+
+substring()
+
+
+Substring()
+
+
+SubString()
+
+
+None of the mentioned
+
+7.
+What will be the output of the following Java program?
+
+    class output 
+
+    {
+
+        public static void main(String args[])
+
+        {             String s = "Hello World";
+
+             int i = s.indexOf('o');
+
+             int j = s.lastIndexOf('l');
+
+             System.out.print(i + " " + j);
+
+ 
+
+        }
+
+   }
+
+
+4 8
+
+
+5 9
+
+
+4 9
+
+
+5 8
+
+Explanation:
+

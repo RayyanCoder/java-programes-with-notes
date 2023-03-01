@@ -1,0 +1,239 @@
+1.
+Which of the following is not an OOPS concept in Java?
+
+
+Inheritance
+
+
+Encapsulation
+
+
+Polymorphism
+
+
+Compilation
+
+Explanation: There are 4 OOPS concepts in Java. Inheritance, Encapsulation, Polymorphism and Abstraction.
+
+2.
+What is inheritance in Java?
+
+
+Inheritance is the process by which one class acquires the properties and behaviours of another class.
+
+
+Inheritance is the process by which one class acquires the properties and behaviours of all classes.
+
+
+Inheritance is the process by which one object acquires the properties and behaviours of another object.
+
+
+Inheritance is the process by which one object acquires the properties and behaviours of all objects.
+
+3.
+ What is the use of inheritance in Java?
+
+
+To reuse the existing code and avoid rewriting the same code multiple times.
+
+
+To create a new class that is a modified version of an existing class.
+
+
+To share the data members of a class with another class.
+
+
+All of the above.
+
+4.
+Can a class inherit the constructor of its parent class in Java?
+
+
+Yes
+
+
+No
+
+5.
+Which keyword is used to inherit a class in Java?
+
+
+extends
+
+
+inherit
+
+
+subclass
+
+
+acquire
+
+6.
+ What is the difference between inheritance and composition in Java?
+
+
+Inheritance involves a class acquiring the properties and behaviours of another class, while composition involves a class containing objects of other classes as data members.
+
+
+Inheritance involves a class containing objects of other classes as data members, while composition involves a class acquiring the properties and behaviours of another class.
+
+
+Both inheritance and composition involve a class acquiring the properties and behaviours of another class.
+
+
+Both inheritance and composition involve a class containing objects of other classes as data members.
+
+7.
+A class member declared protected becomes a member of a subclass of which type?
+
+
+public member
+
+
+private member
+
+
+protected member
+
+
+static member
+
+Explanation: A class member declared protected becomes a private member of subclass.
+
+8.
+ Which of these is the correct way of inheriting class A by class B?
+
+
+class B + class A {}
+
+
+class B inherits class A {}
+
+
+class B extends A {}
+
+
+class B extends class A {}
+
+9.
+What is not a type of inheritance?
+
+
+Single inheritance
+
+
+Double inheritance
+
+
+Hierarchical inheritance
+
+
+Multiple inheritance
+
+10.
+Which of the following is a type of polymorphism in Java?
+
+
+Compile time polymorphism
+
+
+Execution time polymorphism
+
+
+Multiple polymorphism
+
+
+Multilevel polymorphism
+
+Explanation: There are two types of polymorphism in Java. Compile time polymorphism (overloading) and runtime polymorphism (overriding).
+
+11.
+ When does method overloading is determined?
+
+
+At run time
+
+
+At compile time
+
+
+At coding time
+
+
+At execution time
+
+Explanation: Overloading is determined at compile time. Hence, it is also known as compile time polymorphism.
+
+12.
+What would be the result if a class extends two interfaces and both have a method with the same name and signature? Let's assume that the class is not implementing that method.
+
+
+Runtime error
+
+
+Compile time error
+
+
+Code runs successfully
+
+
+First called method is executed successfully
+
+Explanation: In case of such conflict, the compiler will not be able to link a method call due to ambiguity. It will throw a compile time error.
+
+13.
+ Does Java support multiple level inheritance?
+
+
+True
+
+
+False
+
+Explanation: Java supports multiple level inheritance through implementing multiple interfaces.
+
+14.
+What is the use of the final keyword in Java?
+
+
+When a class is made final, a subclass of it can not be created.
+
+
+When a method is final, it can not be overridden.
+
+
+When a variable is final, it can be assigned value only once.
+
+
+All of the above
+
+15.
+ Can a class be both abstract and final in Java?
+
+
+Yes, but it cannot have any abstract methods.
+
+
+No, a class cannot be both abstract and final.
+
+
+Yes, but it must be a subclass of another class.
+
+
+Yes, but it must have at least one abstract method.
+
+16.
+What is it called if an object has its own lifecycle and there is no owner?
+
+
+Aggregation
+
+
+Composition
+
+
+Encapsulation
+
+
+Association

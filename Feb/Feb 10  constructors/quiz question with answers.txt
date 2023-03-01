@@ -1,0 +1,140 @@
+1.
+What is true about private constructor?
+
+
+Private constructor ensures only one instance of a class exist at any point of time
+
+
+Private constructor ensures multiple instances of a class exist at any point of time
+
+
+Private constructor eases the instantiation of a class
+
+
+Private constructor allows creating objects in other classes
+
+Explanation: Objects of private constructor can only be created within class. Private constructor is used in a singleton pattern.
+
+2.
+What would be the behaviour if this() and super() were used in a method?
+
+
+Runtime error
+
+
+Throws exception
+
+
+compile time error
+
+
+Runs successfully
+
+Explanation: this() and super() cannot be used in a method. This throws a compile time error.
+
+3.
+ What is false about constructor?
+
+
+Constructors cannot be synchronized in Java
+
+
+Java does not provide default copy constructor
+
+
+Constructor can have a return type
+
+
+“this” and “super” can be used in a constructor
+
+Explanation: The constructor cannot have a return type. It should create and return new objects. Hence it would give a compilation error.
+
+4.
+ What is the return value of constructor in java?
+
+
+1
+
+
+null
+
+
+void
+
+
+instance
+
+5.
+Can we use access modifiers for constructors in Java?
+
+
+Yes
+
+
+No
+
+6.
+The default constructor is used for
+
+
+Calling default methods
+
+
+Initializing default values to objects
+
+
+Dereferencing default objects
+
+
+All of above
+
+7.
+What is not the use of “this” keyword in Java?
+
+
+Passing itself to another method
+
+
+Calling another constructor in constructor chaining
+
+
+Referring to the instance variable when local variable has the same name
+
+
+Passing itself to method of the same class
+
+Explanation: “this” is an important keyword in java. It helps to distinguish between local variables and variables passed in the method as parameters.
+
+8.
+What would be the behaviour if one parameterized constructor is explicitly defined?
+
+
+Compilation error
+
+
+Compilation succeeds
+
+
+Runtime error
+
+
+Compilation succeeds but at the time of creating object using default constructor, it throws compilation error
+
+Explanation: The class compiles successfully. But the object creation of that class gives a compilation error.
+
+9.
+ What would be behaviour if the constructor has a return type?
+
+
+Compilation error
+
+
+Runtime error
+
+
+Compilation and runs successfully
+
+
+Only String return type is allowed
+
+Explanation: The constructor cannot have a return type. It should create and return new objects. Hence it would give compilation error.
